@@ -1,0 +1,161 @@
+<resources>
+    <!-- ========================================== -->
+    <!-- APP INFO -->
+    <!-- ========================================== -->
+    <string name="app_name">DJI Mini 3 Pro Controller</string>
+    <string name="app_version">1.0</string>
+    <string name="app_description">Sistema di controllo avanzato per DJI Mini 3 Pro con monitoraggio sensori real-time</string>
+
+    <!-- ========================================== -->
+    <!-- CONNECTION STATUS -->
+    <!-- ========================================== -->
+    <string name="status_connecting">🔄 Connessione in corso...</string>
+    <string name="status_connected">🚁 Mini 3 Pro Connesso</string>
+    <string name="status_disconnected">❌ Disconnesso</string>
+    <string name="status_ready">✅ Sistema Pronto</string>
+    <string name="status_initializing">⏳ Inizializzazione SDK...</string>
+
+    <!-- ========================================== -->
+    <!-- FLIGHT CONTROLS -->
+    <!-- ========================================== -->
+    <string name="btn_check_connection">🔗 Verifica Connessione</string>
+    <string name="btn_takeoff">🛫 Decollo</string>
+    <string name="btn_land">🛬 Atterraggio</string>
+    <string name="btn_emergency_land">🚨 Atterraggio di Emergenza</string>
+
+    <!-- ========================================== -->
+    <!-- SENSOR CONTROLS -->
+    <!-- ========================================== -->
+    <string name="btn_enable_apas">✅ Abilita APAS 4.0</string>
+    <string name="btn_disable_apas">❌ Disabilita APAS 4.0</string>
+    <string name="btn_vision_positioning">👁️ Vision Positioning</string>
+    <string name="btn_toggle_vision">🔄 Toggle Vision</string>
+
+    <!-- ========================================== -->
+    <!-- SENSOR STATUS MESSAGES -->
+    <!-- ========================================== -->
+    <string name="vision_system_active">👁️ Vision System: ✅ ATTIVO</string>
+    <string name="vision_system_inactive">👁️ Vision System: ❌ DISATTIVO</string>
+    <string name="apas_enabled">🛡️ APAS 4.0: ✅ Abilitato</string>
+    <string name="apas_disabled">🛡️ APAS 4.0: ❌ Disabilitato</string>
+
+    <string name="obstacle_none">✅ Nessun ostacolo rilevato</string>
+    <string name="obstacle_front">🔴 Ostacolo FRONTALE: %1$.1fm</string>
+    <string name="obstacle_back">🔴 Ostacolo POSTERIORE: %1$.1fm</string>
+    <string name="obstacle_down">⬇️ Terreno: %1$.1fm</string>
+
+    <string name="gps_searching">🛰️ GPS: Ricerca satelliti...</string>
+    <string name="gps_ready">🛰️ GPS: %1$d satelliti ✅</string>
+    <string name="gps_weak">🛰️ GPS: %1$d satelliti ⚠️</string>
+
+    <string name="battery_good">🔋 Batteria: %1$d%% ✅ Buona</string>
+    <string name="battery_low">🔋 Batteria: %1$d%% ⚠️ Bassa</string>
+    <string name="battery_critical">🔋 Batteria: %1$d%% 🚨 CRITICA</string>
+    <string name="battery_charging">🔋 Batteria: %1$d%% ⚡ In carica</string>
+
+    <!-- ========================================== -->
+    <!-- FLIGHT DATA -->
+    <!-- ========================================== -->
+    <string name="altitude_format">📏 Altitudine: %1$.1fm</string>
+    <string name="velocity_format">🚀 Velocità: %1$.1fm/s</string>
+    <string name="velocity_vertical_up">⬆️ Salita: %1$.1fm/s</string>
+    <string name="velocity_vertical_down">⬇️ Discesa: %1$.1fm/s</string>
+    <string name="velocity_horizontal">➡️ Orizzontale</string>
+
+    <!-- ========================================== -->
+    <!-- SUCCESS MESSAGES -->
+    <!-- ========================================== -->
+    <string name="success_takeoff">🛫 Decollo avviato con successo!</string>
+    <string name="success_landing">🛬 Atterraggio completato!</string>
+    <string name="success_apas_enabled">✅ APAS 4.0 abilitato correttamente</string>
+    <string name="success_apas_disabled">⚠️ APAS 4.0 disabilitato - Attenzione al volo manuale!</string>
+    <string name="success_vision_enabled">👁️ Vision Positioning attivato</string>
+    <string name="success_vision_disabled">👁️ Vision Positioning disattivato</string>
+
+    <!-- ========================================== -->
+    <!-- ERROR MESSAGES -->
+    <!-- ========================================== -->
+    <string name="error_takeoff_failed">❌ Decollo fallito: %1$s</string>
+    <string name="error_landing_failed">❌ Atterraggio fallito: %1$s</string>
+    <string name="error_apas_failed">❌ Errore APAS 4.0: %1$s</string>
+    <string name="error_vision_failed">❌ Errore Vision System: %1$s</string>
+    <string name="error_sensor_read">⚠️ Errore lettura sensori: %1$s</string>
+    <string name="error_connection_lost">🔌 Connessione persa con Mini 3 Pro</string>
+    <string name="error_sdk_init">❌ Errore inizializzazione SDK: %1$s</string>
+
+    <!-- ========================================== -->
+    <!-- WARNING MESSAGES -->
+    <!-- ========================================== -->
+    <string name="warning_battery_low">⚠️ BATTERIA BASSA! Pianifica il rientro</string>
+    <string name="warning_battery_critical">🚨 BATTERIA CRITICA! Atterraggio immediato consigliato!</string>
+    <string name="warning_obstacle_close">🚧 OSTACOLO VICINO! Distanza: %1$.1fm</string>
+    <string name="warning_gps_weak">⚠️ Segnale GPS debole - Volo con cautela</string>
+    <string name="warning_high_altitude">⚠️ Altitudine elevata: %1$.0fm - Verifica normative locali</string>
+    <string name="warning_high_speed">⚠️ Velocità elevata: %1$.1fm/s - Ridurre per sicurezza</string>
+
+    <!-- ========================================== -->
+    <!-- MINI 3 PRO SPECIFIC -->
+    <!-- ========================================== -->
+    <string name="mini3pro_connected">🎯 DJI Mini 3 Pro rilevato e connesso!</string>
+    <string name="mini3pro_capabilities">🎯 Mini 3 Pro - Sensori Disponibili:\n✅ Vision Front/Back/Down\n✅ APAS 4.0\n✅ Vision Positioning\n❌ Precision Landing\n❌ Sensori laterali</string>
+    <string name="mini3pro_limitations">⚠️ LIMITAZIONI MINI 3 PRO:\n• Nessun sensore laterale\n• Precision Landing non supportato\n• Cautela durante volo sideways</string>
+
+    <!-- ========================================== -->
+    <!-- SERVICE DESCRIPTIONS -->
+    <!-- ========================================== -->
+    <string name="sensor_monitoring_service_description">Monitoraggio continuo sensori DJI Mini 3 Pro</string>
+    <string name="telemetry_service_description">Raccolta dati telemetria Mini 3 Pro</string>
+
+    <!-- ========================================== -->
+    <!-- NOTIFICATIONS -->
+    <!-- ========================================== -->
+    <string name="notification_sensor_monitoring">📡 Monitoraggio sensori attivo</string>
+    <string name="notification_battery_low">🔋 Batteria Mini 3 Pro bassa: %1$d%%</string>
+    <string name="notification_obstacle_detected">🚧 Ostacolo rilevato a %1$.1fm</string>
+    <string name="notification_connection_lost">🔌 Mini 3 Pro disconnesso</string>
+
+    <!-- ========================================== -->
+    <!-- DIALOG MESSAGES -->
+    <!-- ========================================== -->
+    <string name="dialog_confirm_takeoff_title">Conferma Decollo</string>
+    <string name="dialog_confirm_takeoff_message">Sei sicuro di voler far decollare il Mini 3 Pro?\n\nVerifica:\n• Area libera da ostacoli\n• Batteria sufficiente\n• GPS pronto\n• APAS 4.0 abilitato</string>
+
+    <string name="dialog_confirm_landing_title">Conferma Atterraggio</string>
+    <string name="dialog_confirm_landing_message">Avviare sequenza di atterraggio?\n\nIl Mini 3 Pro atterrerà nella posizione corrente.</string>
+
+    <string name="dialog_disable_apas_title">⚠️ Disabilitare APAS 4.0?</string>
+    <string name="dialog_disable_apas_message">ATTENZIONE: Disabilitando APAS 4.0 il Mini 3 Pro non avrà protezione automatica dagli ostacoli.\n\nContinuare solo se sei un pilota esperto.</string>
+
+    <string name="dialog_emergency_land_title">🚨 ATTERRAGGIO DI EMERGENZA</string>
+    <string name="dialog_emergency_land_message">Il Mini 3 Pro atterrerà immediatamente nella posizione corrente.\n\nUSARE SOLO IN CASO DI EMERGENZA!</string>
+
+    <!-- ========================================== -->
+    <!-- COMMON ACTIONS -->
+    <!-- ========================================== -->
+    <string name="action_ok">OK</string>
+    <string name="action_cancel">Annulla</string>
+    <string name="action_confirm">Conferma</string>
+    <string name="action_retry">Riprova</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="action_help">Aiuto</string>
+
+    <!-- ========================================== -->
+    <!-- MENU ITEMS -->
+    <!-- ========================================== -->
+    <string name="menu_settings">⚙️ Impostazioni</string>
+    <string name="menu_logs">📄 Log Sistema</string>
+    <string name="menu_about">ℹ️ Info App</string>
+    <string name="menu_help">❓ Aiuto</string>
+    <string name="menu_calibration">🎯 Calibrazione</string>
+
+    <!-- ========================================== -->
+    <!-- ABOUT INFO -->
+    <!-- ========================================== -->
+    <string name="about_app_title">DJI Mini 3 Pro Controller</string>
+    <string name="about_version">Versione: %1$s</string>
+    <string name="about_sdk_version">DJI SDK: v5.8.0</string>
+    <string name="about_target_drone">Drone: DJI Mini 3 Pro</string>
+    <string name="about_description">Sistema di controllo professionale per DJI Mini 3 Pro con monitoraggio sensori avanzato e funzioni di sicurezza.</string>
+    <string name="about_features">Funzionalità:\n• Monitoraggio sensori real-time\n• APAS 4.0 Control\n• Vision Positioning\n• Telemetria completa\n• Sistema di sicurezza automatico</string>
+
+</resources>

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable-anydpi-v21/design_ic_visibility.xml"
+    }
+]

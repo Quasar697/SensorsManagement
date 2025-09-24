@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/font/google_material_font_v3_0_1_0_original.ttf",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-google-material-typeface-3.0.1.4.original-kotlin-23:/font/google_material_font_v3_0_1_0_original.ttf"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/font/d_din_condensed_bold.ttf",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/font/d_din_condensed_bold.ttf"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/font/community_material_font_v3_5_95_1.ttf",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-community-material-typeface-3.5.95.1-kotlin-29:/font/community_material_font_v3_5_95_1.ttf"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/font/ionicons_font_v2_0_1_1.ttf",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-ionicons-typeface-2.0.1.5-kotlin-9:/font/ionicons_font_v2_0_1_1.ttf"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/font/noto_sans_cjk_sc_medium.otf",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/font/noto_sans_cjk_sc_medium.otf"
+    }
+]

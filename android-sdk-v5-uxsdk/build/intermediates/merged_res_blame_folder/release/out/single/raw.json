@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_shutter_1.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_shutter_1.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_camera_ev_center.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_camera_ev_center.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_shutter_7.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_shutter_7.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_video_voice.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_video_voice.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_radar_beep_250.wav",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_radar_beep_250.wav"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_rtk_guidance_step2.json",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_rtk_guidance_step2.json"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_shutter_14.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_shutter_14.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_rtk_guidance_reset.json",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_rtk_guidance_reset.json"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_end_video_record.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_end_video_record.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_rtk_guidance_step3.json",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_rtk_guidance_step3.json"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_radar_beep_1000.wav",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_radar_beep_1000.wav"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_rtk_guidance_step1.json",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_rtk_guidance_step1.json"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_shutter_10.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_shutter_10.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_shutter_3.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_shutter_3.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_tips_voice_atti_mode.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_tips_voice_atti_mode.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_shutter_5.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_shutter_5.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_radar_beep_500.wav",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_radar_beep_500.wav"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/uxsdk_camera_simple_click.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/uxsdk_camera_simple_click.mp3"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/raw/tips_voice_atti_mode.mp3",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/raw/tips_voice_atti_mode.mp3"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/btn_radio_to_on_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/fast_out_slow_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/fast_out_slow_in.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/mtrl_linear.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/interpolator/mtrl_linear.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/btn_radio_to_off_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/btn_checkbox_unchecked_mtrl_animation_interpolator_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/interpolator/btn_checkbox_checked_mtrl_animation_interpolator_1.xml"
+    }
+]

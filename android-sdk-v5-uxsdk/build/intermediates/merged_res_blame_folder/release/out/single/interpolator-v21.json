@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator-v21/mtrl_fast_out_slow_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/interpolator-v21/mtrl_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator-v21/mtrl_fast_out_linear_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/interpolator-v21/mtrl_fast_out_linear_in.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/interpolator-v21/mtrl_linear_out_slow_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/interpolator-v21/mtrl_linear_out_slow_in.xml"
+    }
+]

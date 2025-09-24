@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/anim-v21/design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/anim-v21/design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/anim-v21/fragment_fast_out_extra_slow_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/anim-v21/fragment_fast_out_extra_slow_in.xml"
+    }
+]

@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ========================================== -->
+    <!-- DJI SDK PERMISSIONS PER MINI 3 PRO -->
+    <!-- ========================================== -->
+
+    <!-- Bluetooth per connessione controller -->
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+
+    <!-- Network per SDK e telemetria -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <!-- GPS per posizionamento preciso Mini 3 Pro -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <!-- Audio per feedback sistema -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Storage per logs e configurazioni -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <!-- Phone state per device ID -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <!-- Notifiche per alert sicurezza -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <!-- ========================================== -->
+    <!-- USB PERMISSIONS PER CONTROLLER DJI -->
+    <!-- ========================================== -->
+
+    <uses-feature android:name="android.hardware.usb.host" android:required="false" />
+    <uses-permission android:name="android.permission.USB_PERMISSION" />
+
+    <!-- ========================================== -->
+    <!-- HARDWARE FEATURES MINI 3 PRO -->
+    <!-- ========================================== -->
+
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+    <uses-feature android:name="android.hardware.location.gps" android:required="true" />
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false" />
+    <uses-feature android:name="android.hardware.wifi" android:required="true" />
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="false" />
+    <uses-feature android:name="android.hardware.sensor.gyroscope" android:required="false" />
+
+    <application
+        android:name=".DJIApplication"
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Template"
+        android:requestLegacyExternalStorage="true"
+        android:preserveLegacyExternalStorage="true"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:networkSecurityConfig="@xml/network_security_config"
+        tools:targetApi="33">
+
+        <!-- ========================================== -->
+        <!-- DJI SDK CONFIGURATION -->
+        <!-- ========================================== -->
+
+        <!--
+        🔑 SOSTITUIRE CON LA TUA CHIAVE API DJI REALE!
+        Ottieni la chiave su: https://developer.dji.com/
+        -->
+        <meta-data
+            android:name="com.dji.sdk.API_KEY"
+            android:value="YOUR_DJI_API_KEY_HERE" />
+
+        <!-- Configurazione LDM per Mini 3 Pro -->
+        <meta-data
+            android:name="com.dji.sdk.LDM"
+            android:value="Custom" />
+
+        <!-- Info app per DJI servers -->
+        <meta-data
+            android:name="com.dji.app.target_drone"
+            android:value="DJI_MINI_3_PRO" />
+
+        <!-- Versione SDK utilizzata -->
+        <meta-data
+            android:name="com.dji.sdk.version"
+            android:value="5.8.0" />
+
+        <!-- ========================================== -->
+        <!-- MAIN ACTIVITY -->
+        <!-- ========================================== -->
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Template"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|screenSize|keyboardHidden|screenLayout"
+            android:windowSoftInputMode="adjustResize"
+            android:launchMode="singleTop">
+
+            <!-- Intent filter principale -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Intent filter per deep link da DJI app -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="djimini3pro" />
+            </intent-filter>
+
+            <!-- Intent filter per condivisione file -->
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
+
+        <!-- ========================================== -->
+        <!-- USB DEVICE ATTACHMENT -->
+        <!-- ========================================== -->
+
+        <activity
+            android:name=".USBAttachedActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true">
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+
+        <!-- Activity per gestione disconnessione USB -->
+        <activity
+            android:name=".USBDetachedActivity"
+            android:exported="true"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:launchMode="singleTop"
+            android:excludeFromRecents="true">
+
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_DETACHED" />
+            </intent-filter>
+        </activity>
+
+        <!-- ========================================== -->
+        <!-- BACKGROUND SERVICES -->
+        <!-- ========================================== -->
+
+        <!-- Service per monitoraggio sensori continuo -->
+        <service
+            android:name=".services.SensorMonitoringService"
+            android:exported="false"
+            android:enabled="true"
+            android:foregroundServiceType="location|camera"
+            android:description="@string/sensor_monitoring_service_description" />
+
+        <!-- Service per telemetria (opzionale) -->
+        <service
+            android:name=".services.TelemetryService"
+            android:exported="false"
+            android:enabled="true"
+            android:foregroundServiceType="dataSync" />
+
+        <!-- Service per gestione emergenze -->
+        <service
+            android:name=".services.EmergencyService"
+            android:exported="false"
+            android:enabled="true"
+            android:foregroundServiceType="location" />
+
+        <!-- ========================================== -->
+        <!-- BROADCAST RECEIVERS -->
+        <!-- ========================================== -->
+
+        <!-- Receiver per eventi connessione drone -->
+        <receiver
+            android:name=".receivers.DroneConnectionReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="dji_mini3pro_connection" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGED" />
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver per gestione batteria -->
+        <receiver
+            android:name=".receivers.BatteryReceiver"
+            android:exported="false"
+            android:enabled="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_LOW" />
+                <action android:name="android.intent.action.BATTERY_OKAY" />
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Receiver per gestione boot device -->
+        <receiver
+            android:name=".receivers.BootReceiver"
+            android:exported="true"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- ========================================== -->
+        <!-- PROVIDERS -->
+        <!-- ========================================== -->
+
+        <!-- FileProvider per condivisione logs e file -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <!-- Content Provider per dati volo (opzionale) -->
+        <provider
+            android:name=".providers.FlightDataProvider"
+            android:authorities="${applicationId}.flightdata"
+            android:exported="false"
+            android:enabled="true" />
+
+        <!-- ========================================== -->
+        <!-- WORK MANAGER -->
+        <!-- ========================================== -->
+
+        <provider
+            android:name="androidx.startup.InitializationProvider"
+            android:authorities="${applicationId}.androidx-startup"
+            android:exported="false"
+            tools:node="merge">
+
+            <!-- Disabilita WorkManager auto-init -->
+            <meta-data
+                android:name="androidx.work.WorkManagerInitializer"
+                android:value="androidx.startup"
+                tools:node="remove" />
+        </provider>
+
+        <!-- ========================================== -->
+        <!-- NOTIFICATION CHANNELS -->
+        <!-- ========================================== -->
+
+        <!-- Configurazione canali notifica -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_launcher_foreground" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+        <!-- ========================================== -->
+        <!-- CRASH REPORTING -->
+        <!-- ========================================== -->
+
+        <!-- Crashlytics (se utilizzato) -->
+        <meta-data
+            android:name="firebase_crashlytics_collection_enabled"
+            android:value="true" />
+
+        <!-- Analytics (se utilizzato) -->
+        <meta-data
+            android:name="google_analytics_adid_collection_enabled"
+            android:value="false" />
+
+    </application>
+
+    <!-- ========================================== -->
+    <!-- QUERY PERMISSIONS PER DJI APPS -->
+    <!-- ========================================== -->
+
+    <queries>
+        <!-- DJI Apps ufficiali -->
+        <package android:name="dji.go.v4" />
+        <package android:name="dji.go.v5" />
+        <package android:name="dji.pilot2" />
+        <package android:name="com.dji.fly" />
+        <package android:name="com.dji.industry.pilot" />
+
+        <!-- Intent per DJI SDK services -->
+        <intent>
+            <action android:name="dji.sdk.sdkmanager.DJISDKManagerService" />
+        </intent>
+
+        <!-- Intent per condivisione file -->
+        <intent>
+            <action android:name="android.intent.action.SEND" />
+            <data android:mimeType="text/plain" />
+        </intent>
+
+        <intent>
+            <action android:name="android.intent.action.SEND_MULTIPLE" />
+            <data android:mimeType="*/*" />
+        </intent>
+
+        <!-- Intent per visualizzazione file -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:mimeType="*/*" />
+        </intent>
+
+        <!-- Intent per browser web -->
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="http" />
+        </intent>
+
+        <intent>
+            <action android:name="android.intent.action.VIEW" />
+            <data android:scheme="https" />
+        </intent>
+    </queries>
+
+</manifest>

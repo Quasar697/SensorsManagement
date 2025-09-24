@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\filip\\.gradle\\caches\\transforms-3\\a05cf2edfb14bb3f6732c1eaced48b39\\transformed\\appcompat-1.3.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "dji.v5.ux.android-sdk-v5-uxsdk-mergeReleaseResources-32:/values-hdpi-v4/values-hdpi-v4.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\filip\\.gradle\\caches\\transforms-3\\a05cf2edfb14bb3f6732c1eaced48b39\\transformed\\appcompat-1.3.1\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "6",
+                        "endColumns": "13",
+                        "endOffsets": "327"
+                    }
+                }
+            ]
+        }
+    ]
+}

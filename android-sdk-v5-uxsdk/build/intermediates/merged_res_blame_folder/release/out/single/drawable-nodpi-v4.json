@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-nodpi-v4/uxsdk_v2_kumquatx_icon_connected.webp",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-nodpi/uxsdk_v2_kumquatx_icon_connected.webp"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-nodpi-v4/uxsdk_fpv_hsi_compass.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-nodpi/uxsdk_fpv_hsi_compass.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-nodpi-v4/uxsdk_fpv_hsi_compass_tips.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-nodpi/uxsdk_fpv_hsi_compass_tips.png"
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_arrow_down.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_arrow_down.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_map_gimbal_yaw.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_map_gimbal_yaw.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_arrow_up.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_arrow_up.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_hasselblad_shutter_stop.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_hasselblad_shutter_stop.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_hasselblad_shutter_start_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_hasselblad_shutter_start_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_hasselblad_shutter_start.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_hasselblad_shutter_start.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable-anydpi-v24/uxsdk_ic_compass_gimbal_yaw.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable-anydpi-v24/uxsdk_ic_compass_gimbal_yaw.xml"
+    }
+]

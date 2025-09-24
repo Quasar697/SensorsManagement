@@ -1,0 +1,2150 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_title_bar_close_button_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_title_bar_close_button_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_selector_blue_rect_mask.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_selector_blue_rect_mask.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_simulator.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_simulator.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_start_white_v2_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_start_white_v2_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/design_fab_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_drone.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_drone.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_rtk_status_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_rtk_status_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_checkbox_unchecked_to_checked_mtrl_animation.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_text_cursor_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_compass_home_point.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_compass_home_point.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_cancel_landing_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_cancel_landing_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_thermoregulation_24.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_thermoregulation_24.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_more_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_more_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_connected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_connected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_waypoint.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_waypoint.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_status_pgb_yellow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_status_pgb_yellow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_end_black_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_end_black_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_land_yellow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_land_yellow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_rtk_status.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_rtk_status.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_home_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_home_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_signal_level_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_signal_level_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_auto_exposure_unlock.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_auto_exposure_unlock.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_3s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_3s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_right_danger.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_right_danger.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_plane_electricity_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_plane_electricity_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_status_pgb_green.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_status_pgb_green.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_info_bg_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_info_bg_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_circle_selected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_circle_selected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_range_seekbar_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_range_seekbar_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_frame.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_frame.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_flight_mode_list_item.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_flight_mode_list_item.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_vps_enabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_vps_enabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/design_snackbar_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_show_barrier_up.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_show_barrier_up.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_system_status_list_novice_mode.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_system_status_list_novice_mode.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_plane_caution.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_plane_caution.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_only_hori_on.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_only_hori_on.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_raw_burst_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_raw_burst_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_rtk_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_rtk_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_exposure_settings_program.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_exposure_settings_program.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_camera.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_camera.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_config_sd_none.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_config_sd_none.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_fpv_setting_battery_group.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_fpv_setting_battery_group.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_icon_delete.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_icon_delete.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_pitch_guide_gimbal_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_pitch_guide_gimbal_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_btn_radio_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_rtk_guidance_step_next.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_rtk_guidance_step_next.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_exposure_settings_manual.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_exposure_settings_manual.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_ab_back_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_pano_180.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_pano_180.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_right.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_right.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_item_background_holo_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_seekbar_track_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_plane_danger.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_plane_danger.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_back_arrow_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_back_arrow_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_aeb_continuous_7.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_aeb_continuous_7.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_pano_3x1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_pano_3x1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_rtk_guidance_step_oval_gray.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_rtk_guidance_step_oval_gray.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_user_puck_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_user_puck_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_topbar_img_empty_fpv_message.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_topbar_img_empty_fpv_message.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_standard.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_standard.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_gradient_error.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_gradient_error.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_20s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_20s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/mtrl_tabs_default_indicator.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/mtrl_tabs_default_indicator.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radio_quality.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radio_quality.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_hsi_aircraft_radar_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_hsi_aircraft_radar_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_setting_ui_rtk_status.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_setting_ui_rtk_status.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_back_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_back_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_narrow_cross.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_narrow_cross.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_camera_mode_video.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_camera_mode_video.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_drone.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_drone.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_simulator_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_simulator_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_dark_focused.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_light_focused.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_switch_thumb.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_switch_thumb.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_dialog_button_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_dialog_button_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_common_arrow_right_8.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_common_arrow_right_8.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_obstacl_avoidance.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_obstacl_avoidance.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_raw_burst_infinity.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_raw_burst_infinity.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_square_and_cross.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_square_and_cross.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_focus_target_auto.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_focus_target_auto.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_white_radius.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_white_radius.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_blue_rect_mask.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_blue_rect_mask.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_hasselblad_shoot_photo.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_hasselblad_shoot_photo.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_left_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_left_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_compass_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_compass_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_status_pgb_red.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_status_pgb_red.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_right_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_right_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_go_search_api_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_chevron_right_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_chevron_right_disabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_record_video.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_record_video.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_exposure_settings_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_exposure_settings_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_button_text_color.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_button_text_color.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_img_fpv_rc_calibration_shell_stick.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_img_fpv_rc_calibration_shell_stick.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_seek_thumb.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_seek_thumb.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_flyc_circle_selected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_flyc_circle_selected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_white_round_rect.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_white_round_rect.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_common_scrollbar_in_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_common_scrollbar_in_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_sdcard_full.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_sdcard_full.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_simulator_button_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_simulator_button_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_user_stroke_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_user_stroke_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_simulator_row_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_simulator_row_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_sdcard_slow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_sdcard_slow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_internal_storage_full.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_internal_storage_full.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_camera_exposure_mode_setting_selector_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_camera_exposure_mode_setting_selector_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_focusbox_sun_16_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_focusbox_sun_16_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_gimbal_control_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_gimbal_control_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_menu_selectall_mtrl_alpha.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_topbar_rtk_danger.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_topbar_rtk_danger.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_focal_zoom_slider_plus_unclick.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_focal_zoom_slider_plus_unclick.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_hd.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_hd.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/ic_mtrl_chip_checked_circle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/ic_mtrl_chip_checked_circle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_top_setting.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_top_setting.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_show_barrier_down.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_show_barrier_down.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_checked_undisabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_checked_undisabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_internal_storage_not_inserted.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_internal_storage_not_inserted.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_rc.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_rc.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_src_palette_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_src_palette_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_raw_burst_14.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_raw_burst_14.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_battery_voltage_bg_danger.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_battery_voltage_bg_danger.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_pfd_waypoint_left.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_pfd_waypoint_left.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_spot_metering_target.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_spot_metering_target.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_rtk_guidance_replay.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_rtk_guidance_replay.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_compass_home.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_compass_home.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_gray_radius.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_gray_radius.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_fpv_setting.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_fpv_setting.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_topbar_rtk_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_topbar_rtk_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_pano_3x3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_pano_3x3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_sliding_seekbar_progress.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_sliding_seekbar_progress.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_adsb_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_adsb_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_rc_list_item.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_rc_list_item.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_disconnected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_disconnected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_return_home_altitude.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_return_home_altitude.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_item_edittext_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_item_edittext_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_freq_range_rect_hover.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_freq_range_rect_hover.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_btn_check_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_telemetry_location.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_telemetry_location.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_seekbar_thumb_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_start_record_video.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_start_record_video.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_isotherm_seekbar_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_isotherm_seekbar_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_radio_on_to_off_mtrl_animation.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_radio_on_to_off_mtrl_animation.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_round_background_highlighted.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_round_background_highlighted.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_hdr.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_hdr.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_radio_button_last.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_radio_button_last.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_stop_record_video.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_stop_record_video.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_aeb_continuous_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_aeb_continuous_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_pano_sphere.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_pano_sphere.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_title_bar_back_button_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_title_bar_back_button_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_star_half_black_48dp.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_star_half_black_48dp.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_mission_edit_panel_tab_bg_selected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_mission_edit_panel_tab_bg_selected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_start_blue_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_start_blue_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_continuous_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_continuous_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_max_flight_distance.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_max_flight_distance.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ratingbar_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_info_icon_selected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_info_icon_selected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_camera_increment_plus.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_camera_increment_plus.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_overview_status.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_overview_status.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_topbar_satellite_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_topbar_satellite_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_setting_rc_a.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_setting_rc_a.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_circle_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_circle_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_psdk.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_psdk.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_upward_obstacle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_upward_obstacle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_continuous_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_continuous_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_aircraft_battery_temperature.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_aircraft_battery_temperature.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_item_edittext.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_item_edittext.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_aircraft.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_aircraft.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_bird.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_bird.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_double_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_double_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_drone_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_drone_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_dark_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_gps_signal_level_list.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_gps_signal_level_list.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_radio_button_middle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_radio_button_middle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_single_overheating.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_single_overheating.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_popup_window_transparent.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_popup_window_transparent.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_rotate_progress_circle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_rotate_progress_circle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_slider_right.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_slider_right.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_sdcard_not_inserted.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_sdcard_not_inserted.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_compass_list.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_compass_list.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_left_danger.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_left_danger.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_refresh.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_refresh.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_palette_border.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_palette_border.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_battery_volume_normal_pgb.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_battery_volume_normal_pgb.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_shape_simple_progress.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_shape_simple_progress.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_menu_copy_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_user_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_user_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_rc_battery.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_rc_battery.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_pattern_24.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_pattern_24.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_config_internal_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_config_internal_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_transparent_round_rect.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_transparent_round_rect.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_double_nor.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_double_nor.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_alert_good.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_alert_good.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_signal_level_list.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_signal_level_list.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_mid_blue_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_mid_blue_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_record_video_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_record_video_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_normal_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_normal_disabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_freq_range_rect.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_freq_range_rect.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_btn_radio_material_anim.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_btn_radio_material_anim.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_shutter_stop.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_shutter_stop.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_raw_burst_7.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_raw_burst_7.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_item_background_holo_light.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_alert_yellow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_alert_yellow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_radio_off_to_on_mtrl_animation.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_radio_off_to_on_mtrl_animation.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_gradient_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_gradient_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_return_home_yellow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_return_home_yellow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_pitch_guide_gimbal_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_pitch_guide_gimbal_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_takeoff_yellow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_takeoff_yellow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_rc_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_rc_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_aeb_continuous_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_aeb_continuous_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_frame_and_cross.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_frame_and_cross.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_30s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_30s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_butterfly.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_butterfly.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_rounded_edit_text.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_rounded_edit_text.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_continuous_14.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_continuous_14.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_gradient_right.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_gradient_right.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_focus_switch_auto.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_focus_switch_auto.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_dark_focused.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_light_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_settings_white_24dp.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_settings_white_24dp.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_focus_switch_manual.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_focus_switch_manual.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_user_bearing_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_user_bearing_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_shallow_focus.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_shallow_focus.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_rounded_corner.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_rounded_corner.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_hd_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_hd_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_compass_rc.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_compass_rc.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_focal_zoom_slider_minus.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_focal_zoom_slider_minus.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_auto_exposure_lock.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_auto_exposure_lock.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_map_type_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_map_type_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_compass_attitude.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_compass_attitude.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_pfd_waypoint_right.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_pfd_waypoint_right.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_double_land_immediately.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_double_land_immediately.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_item_edittext_focus.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_item_edittext_focus.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_person_log_out.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_person_log_out.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_cab_background_internal_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/navigation_empty_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_speaker_delete_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_speaker_delete_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_dark_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_normal_undisabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_normal_undisabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_person.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_person.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_signal_level_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_signal_level_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/notification_bg_low.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-core-1.8.0-11:/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_end_white_v2_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_end_white_v2_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_new_exposure_focus_ic.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_new_exposure_focus_ic.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd_not_inserted_gray.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd_not_inserted_gray.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_gradient_good.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_gradient_good.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_focus_target_manual.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_focus_target_manual.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_person_log_in.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_person_log_in.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_4s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_4s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_vision_precise_landing.webp",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_vision_precise_landing.webp"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_max_flight_altitude.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_max_flight_altitude.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/tooltip_frame_light.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/tooltip_frame_light.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_slider_left.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_slider_left.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_gps.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_gps.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_mylocation_bg_shape.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_mylocation_bg_shape.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_rtk_guidance_step_oval_blue_solid.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_rtk_guidance_step_oval_blue_solid.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_textfield_search_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_radio_button_first.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_radio_button_first.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_cab_background_top_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_cancel_landing.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_cancel_landing.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_off_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_off_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_menu_paste_mtrl_am_alpha.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_circle_hover.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_circle_hover.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_mid_white_v2_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_mid_white_v2_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_psdk_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_psdk_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_light_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_imu_status.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_imu_status.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_visual_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_visual_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_search_api_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_start_black_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_start_black_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_black_rectangle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_black_rectangle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_mid_white_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_mid_white_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_mission_edit_panel_tab_bg_unselected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_mission_edit_panel_tab_bg_unselected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/notification_tile_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-core-1.8.0-11:/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_more.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_more.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_rc.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_rc.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_pattern_active_24.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_pattern_active_24.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_double_overheating.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_double_overheating.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_compass_status.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_compass_status.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_outer_guide_gimbal_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_outer_guide_gimbal_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_spinner_pop.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_spinner_pop.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_camera_mode_photo.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_camera_mode_photo.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_center_metering_target.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_center_metering_target.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/notification_icon_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-core-1.8.0-11:/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_visual_error.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_visual_error.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_stop_record_video.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_stop_record_video.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_cycle_button_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_cycle_button_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_checkbox_unchecked_mtrl.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_checkbox_unchecked_mtrl.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_pfd_show_barrier_down.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_pfd_show_barrier_down.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_travel_mode_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_travel_mode_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/ic_mtrl_chip_checked_black.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/ic_mtrl_chip_checked_black.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_info_icon_default.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_info_icon_default.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_rtk_guidance_step_oval_blue.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_rtk_guidance_step_oval_blue.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_slider_bar_track.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_slider_bar_track.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_flyc_home_point_bg_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_flyc_home_point_bg_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_thermoregulation_active_24.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_camera_osd_infrared_cotntrol_thermoregulation_active_24.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_continuous_10.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_continuous_10.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_icon_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_icon_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd_full.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd_full.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_seek_bar_highlight.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_seek_bar_highlight.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_edit_radiobutton_tab_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_edit_radiobutton_tab_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_pfd_show_barrier_up.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_pfd_show_barrier_up.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_metering_switch.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_metering_switch.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_compass_north.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_compass_north.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_checkbox_checked_mtrl.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_checkbox_checked_mtrl.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_topbar_rtk_no_open.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_topbar_rtk_no_open.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_raw_burst_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_raw_burst_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_spinner.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_spinner.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd_not_inserted.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd_not_inserted.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_camera_auto_exposure_mode.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_camera_auto_exposure_mode.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_cross.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_cross.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_distance_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_distance_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_only_down_off.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_only_down_off.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_40s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_40s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_continuous_7.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_continuous_7.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_15s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_15s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_close.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_close.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_single_nor.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_single_nor.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_new_exposure_ic.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_new_exposure_ic.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_dashboard_compass_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_dashboard_compass_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_list_selector_holo_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_focal_zoom_slider_minus_unclick.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_focal_zoom_slider_minus_unclick.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_flyzone_locked.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_flyzone_locked.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_mid_black_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_mid_black_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_flyc_circle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_flyc_circle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_signal_level_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_signal_level_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_sliding_seekbar_text.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_sliding_seekbar_text.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_chevron_right.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_chevron_right.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_shape_circle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_shape_circle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_0_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_0_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_hsi_ar_waypoint_break.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_hsi_ar_waypoint_break.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_close_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_close_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_sdcard.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_sdcard.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_sliding_seekbar_thumb.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_sliding_seekbar_thumb.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_chevron_right.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_chevron_right.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_visual_closed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_visual_closed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_battery_voltage_bg_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_battery_voltage_bg_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/mtrl_snackbar_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/mtrl_snackbar_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_obstacl_avoidance_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_obstacl_avoidance_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_setting_circle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_setting_circle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_gradient_left.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_gradient_left.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/tooltip_frame_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_external_gps.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_external_gps.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_navigation_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_navigation_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_checkbox_checked_to_unchecked_mtrl_animation.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_signal_level_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_signal_level_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_menu_cut_mtrl_alpha.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_menu_cut_mtrl_alpha.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_only_up_off.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_only_up_off.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_speaker_delete_not_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_speaker_delete_not_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_vps_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_vps_disabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_remote_controller.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_remote_controller.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_home.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_home.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_emmc.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_emmc.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/notification_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-core-1.8.0-11:/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_outer_guide_gimbal_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_outer_guide_gimbal_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_focal_zoom_slider_plus.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_focal_zoom_slider_plus.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_progress.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_progress.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_config_internal_none.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_config_internal_none.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_single_land_immediately.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_single_land_immediately.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_centerpoint_square.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_centerpoint_square.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_setting_ui_rtk_edit.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_setting_ui_rtk_edit.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_only_up_on.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_only_up_on.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_house.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_house.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_7s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_7s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_1_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_1_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_internal_storage_slow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_internal_storage_slow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_disable_all.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_disable_all.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_cat.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_cat.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_system_status_button_background_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_system_status_button_background_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_signal_level_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_signal_level_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_stop_record_video_pressed.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_stop_record_video_pressed.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_bg_spinner2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_bg_spinner2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_1s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_1s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_normal_all.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_normal_all.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_smart_track_point.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_smart_track_point.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_exposure_setting_menu_content.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_exposure_setting_menu_content.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_only_down_on.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_only_down_on.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_camera_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_camera_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_config_sd_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_config_sd_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_dialog_rounded_corners.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_dialog_rounded_corners.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_seek_bar.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_seek_bar.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_double_arrow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_double_arrow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_end_white_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_end_white_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_radio_off_mtrl.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_radio_off_mtrl.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_vector_test.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-appcompat-resources-1.3.1-10:/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_adsb_disconnected.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_adsb_disconnected.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_2_5.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_2_5.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_camera_exposure_mode_text_color.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_camera_exposure_mode_text_color.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/btn_radio_on_mtrl.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/btn_radio_on_mtrl.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_btn_borderless_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_rtk.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_rtk.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_compass_aircraft.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_compass_aircraft.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_setting_ui_flyc_circle_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_setting_ui_flyc_circle_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_setting_return_point.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_setting_return_point.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_user_icon_shadow.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_user_icon_shadow.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_plane_electricity.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_plane_electricity.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_clear_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_navigation_close.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_navigation_close.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_camera_decrement_minus.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_camera_decrement_minus.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_src_isotherm_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_src_isotherm_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_10s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_10s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_on_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_on_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_shoot_photo_raw.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_shoot_photo_raw.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_travel_mode_inactive.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_travel_mode_inactive.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_2s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_2s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_btn_check_material_anim.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_btn_check_material_anim.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_toggle_green_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_toggle_green_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_setting_rc_b.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_setting_rc_b.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_signal_level_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_signal_level_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_vision_sensors.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_vision_sensors.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_camera_exposure_mode_setting.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_camera_exposure_mode_setting.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_hd.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_hd.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_ssd_status_icon.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_ssd_status_icon.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_setting_rc_active.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_setting_rc_active.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_nor.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_nor.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_flyzone_unlocked.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_flyzone_unlocked.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_unit_type.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_unit_type.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_single_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_single_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_rng_point.png",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_rng_point.png"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ic_menu_share_mtrl_alpha.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ic_menu_share_mtrl_alpha.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_blue_oval_mask.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_blue_oval_mask.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_flyzone_legend_drawable.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_flyzone_legend_drawable.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_5s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_5s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_camera_exposure_status_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_camera_exposure_status_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_gradient_offline.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_gradient_offline.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_sliding_seekbar_thumb_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_sliding_seekbar_thumb_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_alert_red.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_alert_red.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_background.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_background.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_common_arrow_r_s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_common_arrow_r_s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_timepause_60s.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_timepause_60s.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_arrow_drop_down_pink_24dp.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_arrow_drop_down_pink_24dp.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_fpv_topbar_rtk_caution.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_fpv_topbar_rtk_caution.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_star_black_48dp.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_star_black_48dp.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_pitch_guide_gimbal_3.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_pitch_guide_gimbal_3.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_config_sd_normal.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_config_sd_normal.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_compass_inner_circles.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_compass_inner_circles.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_hsi_outer_guide_gimbal_1.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_hsi_outer_guide_gimbal_1.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_flight_mode.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_flight_mode.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_hsi_aircraft_radar_disable.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_hsi_aircraft_radar_disable.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_segmented_button_group_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_segmented_button_group_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/maplibre_user_icon_stale.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-android-sdk-10.3.1-16:/drawable/maplibre_user_icon_stale.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_exposure_settings_aperture.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_exposure_settings_aperture.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_background_battery_voltage_bg_overheating.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_background_battery_voltage_bg_overheating.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_edge_white_radius_4dp.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_edge_white_radius_4dp.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_config_internal_warning.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_config_internal_warning.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_list_selector_holo_light.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_topbar_battery_single_error.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_topbar_battery_single_error.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_ratingbar_small_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_left.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_left.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_2_4.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_2_4.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_gimbal_control_point.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_gimbal_control_point.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_switch_thumb_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_photo_mode_raw_burst_10.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_photo_mode_raw_burst_10.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/ic_mtrl_chip_close_circle.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/drawable/ic_mtrl_chip_close_circle.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_system_status_edit_background_selector.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_system_status_edit_background_selector.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_end_blue_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_end_blue_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_light.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_avoid_only_hori_off.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_avoid_only_hori_off.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_fpv_gradient_bottom.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_fpv_gradient_bottom.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_alert_error.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_alert_error.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_exposure_settings_shutter.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_exposure_settings_shutter.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/abc_tab_indicator_material.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-appcompat-1.3.1-20:/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/common_google_signin_btn_text_light_focused.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-jetified-play-services-base-16.0.1-12:/drawable/common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_forward_1_0.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_forward_1_0.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_cancel_landing_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_cancel_landing_disabled.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_radar_backward_3_2.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_radar_backward_3_2.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_ic_gimbal_control_move.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_ic_gimbal_control_move.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_selector_map_type_text.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_selector_map_type_text.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_mission_edit_panel_tab_bg.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_mission_edit_panel_tab_bg.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_tab_item_start_white_style.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_tab_item_start_white_style.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/drawable/uxsdk_switch_checked_disabled.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/drawable/uxsdk_switch_checked_disabled.xml"
+    }
+]

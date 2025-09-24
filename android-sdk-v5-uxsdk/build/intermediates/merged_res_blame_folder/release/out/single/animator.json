@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/uxsdk_pressed_disable_alpha_040.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/animator/uxsdk_pressed_disable_alpha_040.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_fab_transformation_sheet_collapse_spec.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_fab_transformation_sheet_collapse_spec.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/fragment_close_enter.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/uxsdk_pressed_alpha_040.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/animator/uxsdk_pressed_alpha_040.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/uxsdk_animator_scale.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/animator/uxsdk_animator_scale.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_fab_hide_motion_spec.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_btn_unelevated_state_list_anim.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_btn_unelevated_state_list_anim.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/fragment_open_enter.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/fragment_open_exit.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/animator/fragment_open_exit.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/design_fab_hide_motion_spec.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/design_fab_hide_motion_spec.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_fab_transformation_sheet_expand_spec.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_fab_transformation_sheet_expand_spec.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/fragment_fade_exit.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/uxsdk_disable_alpha_040.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-main-35:/animator/uxsdk_disable_alpha_040.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/design_fab_show_motion_spec.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/design_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_btn_state_list_anim.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_btn_state_list_anim.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_fab_show_motion_spec.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_fab_show_motion_spec.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/fragment_close_exit.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/fragment_fade_enter.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-fragment-1.5.5-24:/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "dji.v5.ux.android-sdk-v5-uxsdk-merged_res-34:/animator/mtrl_chip_state_list_anim.xml",
+        "source": "dji.v5.ux.android-sdk-v5-uxsdk-material-1.0.0-4:/animator/mtrl_chip_state_list_anim.xml"
+    }
+]
