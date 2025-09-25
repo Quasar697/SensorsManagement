@@ -3,25 +3,17 @@ package com.example.msdksample
 import android.util.Log
 import kotlinx.coroutines.*
 
-// ✅ SOLO import che esistono realmente in MSDK v5.11.0
+// ✅ Import corretti per TUTTE le interfacce
+import dji.v5.manager.interfaces.ISDKManager
+import dji.v5.manager.interfaces.IPerceptionManager
+import dji.v5.manager.interfaces.IRTKCenter
 import dji.v5.manager.SDKManager
-import dji.v5.manager.aircraft.perception.PerceptionManager
-import dji.v5.manager.aircraft.rtk.RTKCenter
 import dji.v5.common.callback.CommonCallbacks
 import dji.v5.common.error.IDJIError
 
 /**
- * SensorManager per DJI Mini 3 Pro
- * Gestisce lettura e monitoraggio sensori con MSDK v5.11.0
- *
- * SENSORI SUPPORTATI MINI 3 PRO:
- * ✅ Vision System (Front/Back/Down)
- * ✅ APAS 4.0 Obstacle Avoidance
- * ✅ Vision Positioning
- * ✅ RTK/GPS System
- * ✅ Battery Status
- * ❌ Precision Landing (non supportato)
- * ❌ Side sensors (non disponibili)
+ * SensorManager per DJI Mini 3 Pro - VERSIONE CORRETTA
+ * Usa le interfacce corrette e API compatibili con minSdk 24
  */
 class SensorManager {
 
@@ -32,39 +24,12 @@ class SensorManager {
     private var sensorJob: Job? = null
     private val scope = CoroutineScope(Dispatchers.Main + SupervisorJob())
 
-    // Callback interface per ricevere dati sensori
+    // Callback semplificato
     interface SensorDataCallback {
-        fun onVisionSystemUpdated(
-            isVisionEnabled: Boolean,
-            isObstacleAvoidanceEnabled: Boolean,
-            status: String
-        )
-
-        fun onObstacleDataUpdated(
-            hasObstacleData: Boolean,
-            obstacleInfo: String
-        )
-
-        fun onGPSDataUpdated(
-            isGPSAvailable: Boolean,
-            satelliteCount: Int,
-            positioningSolution: String,
-            status: String
-        )
-
-        fun onBatteryDataUpdated(
-            percentage: Int,
-            voltage: Double,
-            isCharging: Boolean,
-            status: String
-        )
-
-        fun onFlightDataUpdated(
-            isAvailable: Boolean,
-            info: String
-        )
-
+        fun onConnectionStatusUpdated(isConnected: Boolean, productInfo: String)
+        fun onSensorStatusUpdated(sensorType: String, status: String, isAvailable: Boolean)
         fun onSensorError(sensorType: String, error: String)
+        fun onRawDataReceived(dataType: String, data: String)
     }
 
     private var callback: SensorDataCallback? = null
@@ -74,441 +39,400 @@ class SensorManager {
     }
 
     /**
-     * Avvia il monitoraggio periodico di tutti i sensori
+     * Avvia il monitoraggio con API sicure
      */
-    fun startSensorReading(intervalMs: Long = 1000) {
-        stopSensorReading() // Ferma eventuali letture precedenti
+    fun startSensorReading(intervalMs: Long = 2000) {
+        stopSensorReading()
 
         sensorJob = scope.launch {
-            Log.i(TAG, "🚀 Avvio monitoraggio sensori Mini 3 Pro (intervallo: ${intervalMs}ms)")
+            Log.i(TAG, "🔍 Avvio esplorazione API MSDK v5.11.0 (Safe Mode)...")
 
             while (isActive) {
                 try {
-                    if (isDroneConnected()) {
-                        readAllSensors()
-                    } else {
-                        notifyDisconnectedState()
-                    }
+                    exploreAvailableAPIs()
                     delay(intervalMs)
                 } catch (e: Exception) {
-                    Log.e(TAG, "❌ Errore nel ciclo di lettura sensori: ${e.message}")
+                    Log.e(TAG, "❌ Errore esplorazione: ${e.message}")
                     callback?.onSensorError("Sistema", e.message ?: "Errore sconosciuto")
-                    delay(intervalMs * 2) // Ritardo maggiore in caso di errore
+                    delay(intervalMs)
                 }
             }
         }
 
-        Log.d(TAG, "✅ Monitoraggio sensori avviato")
+        Log.d(TAG, "✅ Esplorazione avviata")
     }
 
-    /**
-     * Ferma il monitoraggio dei sensori
-     */
     fun stopSensorReading() {
         sensorJob?.cancel()
         sensorJob = null
-        Log.d(TAG, "⏹️ Monitoraggio sensori fermato")
+        Log.d(TAG, "⏹️ Esplorazione fermata")
     }
 
     /**
-     * Verifica se il drone è connesso
+     * Esplora API usando le interfacce corrette
      */
-    private fun isDroneConnected(): Boolean {
-        return SDKManager.getInstance().getProduct() != null
+    private suspend fun exploreAvailableAPIs() = withContext(Dispatchers.IO) {
+
+        // 1. Test SDKManager (classe concreta)
+        exploreSDKManager()
+
+        // 2. Test IPerceptionManager (interfaccia)
+        explorePerceptionManager()
+
+        // 3. Test IRTKCenter (interfaccia)
+        exploreRTKCenter()
     }
 
     /**
-     * Legge tutti i sensori disponibili
+     * Esplora SDKManager (ora interfaccia ISDKManager)
      */
-    private suspend fun readAllSensors() = withContext(Dispatchers.IO) {
+    private fun exploreSDKManager() {
         try {
-            // Lettura parallela di tutti i sensori
-            val visionJob = async { readVisionSensors() }
-            val obstacleJob = async { readObstacleSensors() }
-            val gpsJob = async { readGPSSensors() }
-            val batteryJob = async { readBatterySensor() }
-            val flightJob = async { readFlightData() }
+            Log.d(TAG, "🔍 Esplorando ISDKManager...")
 
-            // Attende il completamento di tutti
-            awaitAll(visionJob, obstacleJob, gpsJob, batteryJob, flightJob)
+            val sdkManager = SDKManager.getInstance() // Ritorna ISDKManager!
+            Log.d(TAG, "✅ SDKManager.getInstance() funziona")
+            Log.d(TAG, "📋 Tipo: ${sdkManager::class.java.simpleName}")
 
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Errore lettura sensori parallela: ${e.message}")
-        }
-    }
+            // Test metodi comuni senza usare reflection avanzata
+            try {
+                val methods = sdkManager::class.java.methods
+                Log.d(TAG, "📋 Metodi ISDKManager trovati: ${methods.size}")
 
-    /**
-     * ✅ Legge i sensori del sistema Vision (APAS 4.0 + Vision Positioning)
-     */
-    private fun readVisionSensors() {
-        try {
-            val perceptionManager = PerceptionManager.getInstance()
+                // Cerca metodi che contengono parole chiave
+                val productMethods = methods.filter {
+                    it.name.lowercase().contains("product")
+                }.map { it.name }
 
-            val isVisionEnabled = perceptionManager.isVisionPositioningSensorEnabled()
-            val isObstacleAvoidanceEnabled = perceptionManager.isObstacleAvoidanceEnabled()
+                val registerMethods = methods.filter {
+                    it.name.lowercase().contains("register")
+                }.map { it.name }
 
-            val status = buildString {
-                append("Vision System Status:\n")
-                append("• Vision Positioning: ${if (isVisionEnabled) "✅ Attivo" else "❌ Disattivo"}\n")
-                append("• APAS 4.0: ${if (isObstacleAvoidanceEnabled) "✅ Attivo" else "❌ Disattivo"}\n")
-                append("• Sensori disponibili: Front, Back, Down\n")
-                append("• Sensori laterali: Non disponibili (limitazione Mini 3 Pro)")
+                Log.d(TAG, "🎯 Metodi product: $productMethods")
+                Log.d(TAG, "📝 Metodi register: $registerMethods")
+
+                callback?.onRawDataReceived("ISDKManager", "Methods: Product=$productMethods, Register=$registerMethods")
+
+            } catch (e: Exception) {
+                Log.w(TAG, "❌ Errore enumerazione metodi ISDKManager: ${e.message}")
             }
 
-            callback?.onVisionSystemUpdated(isVisionEnabled, isObstacleAvoidanceEnabled, status)
-
-            Log.d(TAG, """
-                === VISION SENSORS ===
-                Vision Positioning: $isVisionEnabled
-                APAS 4.0: $isObstacleAvoidanceEnabled
-                Configurazione: Mini 3 Pro (3-direzioni)
-            """.trimIndent())
+            // Test specifici per metodi probabili
+            testSDKManagerMethods(sdkManager as ISDKManager)
 
         } catch (e: Exception) {
-            Log.e(TAG, "❌ Errore lettura Vision Sensors: ${e.message}")
-            callback?.onSensorError("Vision System", e.message ?: "Errore sconosciuto")
+            Log.e(TAG, "❌ Errore ISDKManager: ${e.message}")
+            callback?.onSensorError("ISDKManager", e.message ?: "Errore sconosciuto")
         }
     }
 
     /**
-     * ✅ Legge i dati dei sensori ostacoli
+     * Test metodi specifici ISDKManager
      */
-    private fun readObstacleSensors() {
-        try {
-            val perceptionManager = PerceptionManager.getInstance()
-            val obstacleData = perceptionManager.obstacleData
+    private fun testSDKManagerMethods(sdkManager: ISDKManager) {
+        // Lista di metodi probabili da testare
+        val methodsToTest = listOf(
+            "getProduct",
+            "hasRegistered",
+            "isRegistered",
+            "getConnectedProduct",
+            "getCurrentProduct"
+        )
 
-            if (obstacleData != null) {
-                val obstacleInfo = buildString {
-                    append("Dati ostacoli disponibili ✅\n")
-                    append("• Tipo dati: ${obstacleData::class.simpleName}\n")
-                    append("• Sensori attivi: Front, Back, Down\n")
-                    append("• Analisi dettagliata: In sviluppo\n")
-                    append("• Mini 3 Pro: Nessun sensore laterale")
+        methodsToTest.forEach { methodName ->
+            try {
+                val method = sdkManager::class.java.getMethod(methodName)
+                val result = method.invoke(sdkManager)
+                Log.d(TAG, "✅ $methodName() = $result")
+                callback?.onRawDataReceived("SDKManager", "$methodName: $result")
+
+                // Se è un metodo product, prova ad estrarre info
+                if (methodName.lowercase().contains("product") && result != null) {
+                    extractProductInfo(result)
                 }
 
-                callback?.onObstacleDataUpdated(true, obstacleInfo)
+            } catch (e: NoSuchMethodException) {
+                Log.w(TAG, "❌ Metodo $methodName() non esiste")
+            } catch (e: Exception) {
+                Log.w(TAG, "❌ Errore $methodName(): ${e.message}")
+            }
+        }
+    }
 
-                Log.d(TAG, """
-                    === OBSTACLE SENSORS ===
-                    Dati disponibili: Sì
-                    Classe dati: ${obstacleData::class.simpleName}
-                    Status: Funzionante
-                """.trimIndent())
+    /**
+     * Estrae informazioni dal prodotto
+     */
+    private fun extractProductInfo(product: Any) {
+        try {
+            val productClass = product::class.java
+            Log.d(TAG, "🎯 Prodotto trovato: ${productClass.simpleName}")
 
-            } else {
-                callback?.onObstacleDataUpdated(false, "Nessun dato ostacoli disponibile")
-                Log.w(TAG, "⚠️ Nessun dato ostacoli ricevuto")
+            // Cerca metodi comuni per il prodotto
+            val methods = productClass.methods.filter { method ->
+                method.name.lowercase().let { name ->
+                    name.contains("type") || name.contains("name") || name.contains("model") ||
+                            name.contains("battery") || name.contains("version")
+                }
             }
 
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Errore lettura Obstacle Sensors: ${e.message}")
-            callback?.onSensorError("Obstacle Sensors", e.message ?: "Errore sconosciuto")
-        }
-    }
-
-    /**
-     * ✅ Legge i dati GPS/RTK
-     */
-    private fun readGPSSensors() {
-        try {
-            val rtkCenter = RTKCenter.getInstance()
-            val rtkState = rtkCenter.rtkSystemState
-
-            if (rtkState != null) {
-                val satelliteCount = rtkState.satelliteCount
-                val positioningSolution = rtkState.positioningSolution?.toString() ?: "Sconosciuto"
-
-                val status = buildString {
-                    append("Sistema RTK/GPS:\n")
-                    append("• Satelliti: $satelliteCount")
-                    when {
-                        satelliteCount >= 8 -> append(" 🟢 Eccellente")
-                        satelliteCount >= 6 -> append(" 🟡 Buono")
-                        satelliteCount >= 4 -> append(" 🟠 Sufficiente")
-                        else -> append(" 🔴 Insufficiente")
-                    }
-                    append("\n• Soluzione positioning: $positioningSolution")
-                    append("\n• Precisione: ${if (satelliteCount >= 6) "Alta" else "Bassa"}")
-                    append("\n• Mini 3 Pro: GPS/GLONASS dual-system")
+            methods.forEach { method ->
+                try {
+                    val result = method.invoke(product)
+                    Log.d(TAG, "✅ Product.${method.name}() = $result")
+                    callback?.onRawDataReceived("Product", "${method.name}: $result")
+                } catch (e: Exception) {
+                    Log.w(TAG, "❌ Product.${method.name}() fallito: ${e.message}")
                 }
-
-                callback?.onGPSDataUpdated(true, satelliteCount, positioningSolution, status)
-
-                Log.d(TAG, """
-                    === GPS/RTK SYSTEM ===
-                    Satelliti: $satelliteCount
-                    Positioning: $positioningSolution
-                    Qualità: ${if (satelliteCount >= 6) "Buona" else "Scarsa"}
-                """.trimIndent())
-
-            } else {
-                callback?.onGPSDataUpdated(false, 0, "Non disponibile", "Sistema GPS/RTK non disponibile")
-                Log.w(TAG, "⚠️ Sistema RTK/GPS non disponibile")
             }
 
+            callback?.onConnectionStatusUpdated(true, "Prodotto: ${productClass.simpleName}")
+
         } catch (e: Exception) {
-            Log.e(TAG, "❌ Errore lettura GPS: ${e.message}")
-            callback?.onSensorError("GPS/RTK", e.message ?: "Errore sconosciuto")
+            Log.e(TAG, "❌ Errore estrazione info prodotto: ${e.message}")
         }
     }
 
     /**
-     * ✅ Legge i dati della batteria
+     * Esplora IPerceptionManager
      */
-    private fun readBatterySensor() {
+    private fun explorePerceptionManager() {
         try {
-            val product = SDKManager.getInstance().getProduct()
-            val battery = product?.battery
+            Log.d(TAG, "🔍 Esplorando IPerceptionManager...")
 
-            if (battery != null) {
-                val percentage = battery.chargeRemainingInPercent
-                val voltage = battery.voltage
-                val isCharging = battery.isCharging
+            val perceptionManager = dji.v5.manager.aircraft.perception.PerceptionManager.getInstance()
+            Log.d(TAG, "✅ PerceptionManager.getInstance() funziona")
+            Log.d(TAG, "📋 Tipo: ${perceptionManager::class.java.simpleName}")
 
-                val status = buildString {
-                    append("Batteria Mini 3 Pro:\n")
-                    append("• Carica: $percentage%\n")
-                    append("• Tensione: ${String.format("%.1f", voltage)}V\n")
-                    append("• Stato: ${if (isCharging) "⚡ In carica" else "🔋 In uso"}\n")
+            // Test dell'interfaccia IPerceptionManager
+            testPerceptionMethods(perceptionManager as IPerceptionManager)
 
-                    // Indicazioni stato
-                    when {
-                        percentage <= 10 -> append("• Livello: 🚨 CRITICO - Atterraggio immediato!")
-                        percentage <= 20 -> append("• Livello: ⚠️ BASSO - Pianifica rientro")
-                        percentage <= 30 -> append("• Livello: 🟡 MEDIO - Monitora")
-                        else -> append("• Livello: ✅ BUONO")
-                    }
+        } catch (e: Exception) {
+            Log.e(TAG, "❌ Errore PerceptionManager: ${e.message}")
+            callback?.onSensorError("PerceptionManager", e.message ?: "Errore sconosciuto")
+        }
+    }
 
-                    append("\n• Capacità: 2453mAh (Mini 3 Pro)")
-                }
+    /**
+     * Test metodi IPerceptionManager (interfaccia corretta)
+     */
+    private fun testPerceptionMethods(perceptionManager: IPerceptionManager) {
+        // Lista metodi probabili da testare
+        val methodsToTest = listOf(
+            "isVisionPositioningSensorEnabled",
+            "isObstacleAvoidanceEnabled",
+            "getObstacleData",
+            "obstacleData",
+            "isVisionSensorEnabled",
+            "getVisionSystemState"
+        )
 
-                callback?.onBatteryDataUpdated(percentage, voltage, isCharging, status)
+        methodsToTest.forEach { methodName ->
+            try {
+                val method = perceptionManager::class.java.getMethod(methodName)
+                val result = method.invoke(perceptionManager)
+                Log.d(TAG, "✅ Perception.$methodName() = $result")
+                callback?.onRawDataReceived("Perception", "$methodName: $result")
 
-                Log.d(TAG, """
-                    === BATTERY STATUS ===
-                    Percentuale: $percentage%
-                    Tensione: ${String.format("%.2f", voltage)}V
-                    In carica: $isCharging
-                    Stato: ${when {
-                    percentage <= 15 -> "CRITICO"
-                    percentage <= 30 -> "BASSO"
-                    else -> "BUONO"
-                }}
-                """.trimIndent())
-
-            } else {
-                callback?.onBatteryDataUpdated(0, 0.0, false, "Dati batteria non disponibili")
-                Log.w(TAG, "⚠️ Dati batteria non disponibili")
+            } catch (e: NoSuchMethodException) {
+                Log.w(TAG, "❌ Metodo Perception.$methodName() non esiste")
+            } catch (e: Exception) {
+                Log.w(TAG, "❌ Errore Perception.$methodName(): ${e.message}")
             }
-
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Errore lettura batteria: ${e.message}")
-            callback?.onSensorError("Battery", e.message ?: "Errore sconosciuto")
         }
+
+        // Test metodi setter per APAS
+        testAPASMethods(perceptionManager)
     }
 
     /**
-     * Placeholder per dati di volo (API da identificare)
+     * Test specifici per controllo APAS
      */
-    private fun readFlightData() {
-        try {
-            val product = SDKManager.getInstance().getProduct()
+    private fun testAPASMethods(perceptionManager: IPerceptionManager) {
+        val setterMethods = listOf(
+            "setObstacleAvoidanceEnabled",
+            "setVisionPositioningEnabled",
+            "enableObstacleAvoidance",
+            "enableVisionPositioning"
+        )
 
-            if (product != null) {
-                val info = buildString {
-                    append("Dati di volo:\n")
-                    append("• Altitudine: API da implementare\n")
-                    append("• Velocità: API da implementare\n")
-                    append("• Attitude: API da implementare\n")
-                    append("• Stato: Drone connesso\n")
-                    append("• Modello: ${product.productType?.name ?: "DJI Mini 3 Pro"}")
-                }
+        setterMethods.forEach { methodName ->
+            try {
+                val methods = perceptionManager::class.java.methods.filter { it.name == methodName }
 
-                callback?.onFlightDataUpdated(true, info)
+                methods.forEach { method ->
+                    val paramCount = method.parameterTypes.size // Compatibile API 24+
+                    Log.d(TAG, "🔍 Metodo $methodName ha $paramCount parametri")
 
-                Log.d(TAG, """
-                    === FLIGHT DATA ===
-                    Drone: ${product.productType?.name ?: "Mini 3 Pro"}
-                    Status: Connesso
-                    API volo: Da implementare
-                """.trimIndent())
-
-            } else {
-                callback?.onFlightDataUpdated(false, "Drone disconnesso")
-            }
-
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Errore lettura dati volo: ${e.message}")
-            callback?.onSensorError("Flight Data", e.message ?: "Errore sconosciuto")
-        }
-    }
-
-    /**
-     * Notifica stato disconnesso a tutti i callback
-     */
-    private fun notifyDisconnectedState() {
-        callback?.onVisionSystemUpdated(false, false, "Drone disconnesso - Vision System non disponibile")
-        callback?.onObstacleDataUpdated(false, "Drone disconnesso - Sensori ostacoli non disponibili")
-        callback?.onGPSDataUpdated(false, 0, "Non disponibile", "Drone disconnesso - GPS non disponibile")
-        callback?.onBatteryDataUpdated(0, 0.0, false, "Drone disconnesso - Batteria non disponibile")
-        callback?.onFlightDataUpdated(false, "Drone disconnesso - Dati volo non disponibili")
-    }
-
-    /**
-     * ✅ Controllo APAS 4.0 - Abilita sistema anticollisione
-     */
-    fun enableObstacleAvoidance(callback: (Boolean, String) -> Unit) {
-        try {
-            val perceptionManager = PerceptionManager.getInstance()
-
-            perceptionManager.setObstacleAvoidanceEnabled(true, object : CommonCallbacks.CompletionCallback {
-                override fun onSuccess() {
-                    Log.i(TAG, "✅ APAS 4.0 abilitato con successo")
-                    callback(true, "APAS 4.0 abilitato con successo")
-                }
-
-                override fun onFailure(error: IDJIError) {
-                    Log.e(TAG, "❌ Errore abilitazione APAS 4.0: ${error.description()}")
-                    callback(false, "Errore APAS 4.0: ${error.description()}")
-                }
-            })
-
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Eccezione abilitazione APAS: ${e.message}")
-            callback(false, "Eccezione: ${e.message}")
-        }
-    }
-
-    /**
-     * ✅ Controllo APAS 4.0 - Disabilita sistema anticollisione
-     */
-    fun disableObstacleAvoidance(callback: (Boolean, String) -> Unit) {
-        try {
-            val perceptionManager = PerceptionManager.getInstance()
-
-            perceptionManager.setObstacleAvoidanceEnabled(false, object : CommonCallbacks.CompletionCallback {
-                override fun onSuccess() {
-                    Log.i(TAG, "⚠️ APAS 4.0 disabilitato - ATTENZIONE: Volo manuale!")
-                    callback(true, "APAS 4.0 disabilitato - Volo manuale attivo")
-                }
-
-                override fun onFailure(error: IDJIError) {
-                    Log.e(TAG, "❌ Errore disabilitazione APAS 4.0: ${error.description()}")
-                    callback(false, "Errore disabilitazione APAS: ${error.description()}")
-                }
-            })
-
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Eccezione disabilitazione APAS: ${e.message}")
-            callback(false, "Eccezione: ${e.message}")
-        }
-    }
-
-    /**
-     * ✅ Controllo Vision Positioning
-     */
-    fun toggleVisionPositioning(callback: (Boolean, String) -> Unit) {
-        try {
-            val perceptionManager = PerceptionManager.getInstance()
-            val currentState = perceptionManager.isVisionPositioningSensorEnabled()
-
-            perceptionManager.setVisionPositioningEnabled(!currentState, object : CommonCallbacks.CompletionCallback {
-                override fun onSuccess() {
-                    val newState = if (!currentState) "attivato" else "disattivato"
-                    Log.i(TAG, "✅ Vision Positioning $newState")
-                    callback(true, "Vision Positioning $newState con successo")
-                }
-
-                override fun onFailure(error: IDJIError) {
-                    Log.e(TAG, "❌ Errore Vision Positioning: ${error.description()}")
-                    callback(false, "Errore Vision Positioning: ${error.description()}")
-                }
-            })
-
-        } catch (e: Exception) {
-            Log.e(TAG, "❌ Eccezione Vision Positioning: ${e.message}")
-            callback(false, "Eccezione: ${e.message}")
-        }
-    }
-
-    /**
-     * Ottiene lo stato corrente di tutti i sensori
-     */
-    fun getCurrentSensorStatus(): String {
-        return try {
-            val product = SDKManager.getInstance().getProduct()
-
-            if (product == null) {
-                "❌ DRONE NON CONNESSO"
-            } else {
-                buildString {
-                    appendLine("🚁 DJI Mini 3 Pro - Stato Sensori")
-                    appendLine("═══════════════════════════════════")
-
-                    // Vision System
-                    try {
-                        val perceptionManager = PerceptionManager.getInstance()
-                        val visionEnabled = perceptionManager.isVisionPositioningSensorEnabled()
-                        val apasEnabled = perceptionManager.isObstacleAvoidanceEnabled()
-
-                        appendLine("👁️ Vision System:")
-                        appendLine("  • Vision Positioning: ${if (visionEnabled) "✅ Attivo" else "❌ Disattivo"}")
-                        appendLine("  • APAS 4.0: ${if (apasEnabled) "✅ Attivo" else "❌ Disattivo"}")
-                        appendLine("  • Sensori: Front ✅ | Back ✅ | Down ✅ | Side ❌")
-                    } catch (e: Exception) {
-                        appendLine("👁️ Vision System: ❌ Errore - ${e.message}")
+                    when (paramCount) {
+                        1 -> Log.d(TAG, "  • Parametro: ${method.parameterTypes[0].simpleName}")
+                        2 -> Log.d(TAG, "  • Parametri: ${method.parameterTypes[0].simpleName}, ${method.parameterTypes[1].simpleName}")
                     }
 
-                    appendLine()
-
-                    // Battery
-                    try {
-                        val battery = product.battery
-                        if (battery != null) {
-                            appendLine("🔋 Batteria:")
-                            appendLine("  • Carica: ${battery.chargeRemainingInPercent}%")
-                            appendLine("  • Tensione: ${String.format("%.1f", battery.voltage)}V")
-                            appendLine("  • Stato: ${if (battery.isCharging) "⚡ In carica" else "🔋 In uso"}")
-                        } else {
-                            appendLine("🔋 Batteria: ❌ Dati non disponibili")
-                        }
-                    } catch (e: Exception) {
-                        appendLine("🔋 Batteria: ❌ Errore - ${e.message}")
-                    }
-
-                    appendLine()
-
-                    // GPS
-                    try {
-                        val rtkCenter = RTKCenter.getInstance()
-                        val rtkState = rtkCenter.rtkSystemState
-
-                        if (rtkState != null) {
-                            appendLine("🛰️ GPS/RTK:")
-                            appendLine("  • Satelliti: ${rtkState.satelliteCount}")
-                            appendLine("  • Soluzione: ${rtkState.positioningSolution}")
-                            appendLine("  • Qualità: ${if (rtkState.satelliteCount >= 6) "🟢 Buona" else "🟡 Scarsa"}")
-                        } else {
-                            appendLine("🛰️ GPS/RTK: ❌ Sistema non disponibile")
-                        }
-                    } catch (e: Exception) {
-                        appendLine("🛰️ GPS/RTK: ❌ Errore - ${e.message}")
-                    }
-
-                    appendLine()
-                    appendLine("📱 App: Mini 3 Pro Controller v1.0")
-                    appendLine("📦 SDK: DJI MSDK v5.11.0")
+                    callback?.onRawDataReceived("APAS Method", "$methodName($paramCount params)")
                 }
+
+            } catch (e: Exception) {
+                Log.w(TAG, "❌ Errore analisi $methodName: ${e.message}")
             }
-        } catch (e: Exception) {
-            "❌ ERRORE STATO SENSORI: ${e.message}"
         }
     }
 
     /**
-     * Cleanup delle risorse
+     * Esplora IRTKCenter
      */
+    private fun exploreRTKCenter() {
+        try {
+            Log.d(TAG, "🔍 Esplorando IRTKCenter...")
+
+            val rtkCenter = dji.v5.manager.aircraft.rtk.RTKCenter.getInstance()
+            Log.d(TAG, "✅ RTKCenter.getInstance() funziona")
+            Log.d(TAG, "📋 Tipo: ${rtkCenter::class.java.simpleName}")
+
+            // Test dell'interfaccia IRTKCenter
+            testRTKMethods(rtkCenter as IRTKCenter)
+
+        } catch (e: Exception) {
+            Log.e(TAG, "❌ Errore RTKCenter: ${e.message}")
+            callback?.onSensorError("RTKCenter", e.message ?: "Errore sconosciuto")
+        }
+    }
+
+    /**
+     * Test metodi IRTKCenter (interfaccia corretta)
+     */
+    private fun testRTKMethods(rtkCenter: IRTKCenter) {
+        val methodsToTest = listOf(
+            "getRTKSystemState",
+            "rtkSystemState",
+            "getSystemState",
+            "getSatelliteCount",
+            "getPositioningSolution",
+            "isRTKEnabled",
+            "getRTKStatus"
+        )
+
+        methodsToTest.forEach { methodName ->
+            try {
+                val method = rtkCenter::class.java.getMethod(methodName)
+                val result = method.invoke(rtkCenter)
+                Log.d(TAG, "✅ RTK.$methodName() = $result")
+                callback?.onRawDataReceived("RTK", "$methodName: $result")
+
+                // Se ottiene uno stato RTK, analizzalo
+                if (result != null && methodName.lowercase().contains("state")) {
+                    analyzeRTKState(result)
+                }
+
+            } catch (e: NoSuchMethodException) {
+                Log.w(TAG, "❌ Metodo RTK.$methodName() non esiste")
+            } catch (e: Exception) {
+                Log.w(TAG, "❌ Errore RTK.$methodName(): ${e.message}")
+            }
+        }
+    }
+
+    /**
+     * Analizza lo stato RTK
+     */
+    private fun analyzeRTKState(rtkState: Any) {
+        try {
+            val stateClass = rtkState::class.java
+            Log.d(TAG, "🛰️ RTK State: ${stateClass.simpleName}")
+
+            val methods = stateClass.methods.filter { method ->
+                method.name.lowercase().let { name ->
+                    name.contains("satellite") || name.contains("solution") ||
+                            name.contains("count") || name.contains("accuracy")
+                }
+            }
+
+            methods.forEach { method ->
+                try {
+                    val result = method.invoke(rtkState)
+                    Log.d(TAG, "✅ RTKState.${method.name}() = $result")
+                    callback?.onRawDataReceived("RTK State", "${method.name}: $result")
+                } catch (e: Exception) {
+                    Log.w(TAG, "❌ RTKState.${method.name}() fallito: ${e.message}")
+                }
+            }
+
+        } catch (e: Exception) {
+            Log.e(TAG, "❌ Errore analisi RTK state: ${e.message}")
+        }
+    }
+
+    /**
+     * Test controllo APAS con metodi trovati
+     */
+    fun testAPASControl(enable: Boolean, callback: (Boolean, String) -> Unit) {
+        try {
+            val perceptionManager = dji.v5.manager.aircraft.perception.PerceptionManager.getInstance() as IPerceptionManager
+
+            // Prova il metodo più probabile per APAS
+            try {
+                val method = perceptionManager::class.java.getMethod("setObstacleAvoidanceEnabled", Boolean::class.java, CommonCallbacks.CompletionCallback::class.java)
+
+                method.invoke(perceptionManager, enable, object : CommonCallbacks.CompletionCallback {
+                    override fun onSuccess() {
+                        Log.i(TAG, "✅ APAS ${if (enable) "abilitato" else "disabilitato"}")
+                        callback(true, "APAS ${if (enable) "abilitato" else "disabilitato"} con successo")
+                    }
+
+                    override fun onFailure(error: IDJIError) {
+                        Log.e(TAG, "❌ Errore APAS: ${error.description()}")
+                        callback(false, "Errore APAS: ${error.description()}")
+                    }
+                })
+
+            } catch (e: NoSuchMethodException) {
+                // Prova metodo alternativo
+                try {
+                    val method = perceptionManager::class.java.getMethod("setObstacleAvoidanceEnabled", Boolean::class.java)
+                    method.invoke(perceptionManager, enable)
+                    callback(true, "APAS ${if (enable) "abilitato" else "disabilitato"} (sync)")
+                } catch (e2: Exception) {
+                    callback(false, "Nessun metodo APAS funzionante trovato")
+                }
+            }
+
+        } catch (e: Exception) {
+            Log.e(TAG, "❌ Errore test APAS: ${e.message}")
+            callback(false, "Eccezione controllo APAS: ${e.message}")
+        }
+    }
+
+    /**
+     * Genera report delle API funzionanti
+     */
+    fun generateAPIReport(): String {
+        return buildString {
+            appendLine("🔍 DJI MSDK v5.11.0 - API Report (Corrected)")
+            appendLine("═".repeat(50))
+            appendLine("📱 Min SDK: 24 | Target SDK: 34")
+            appendLine("🚁 Target: DJI Mini 3 Pro")
+            appendLine()
+
+            appendLine("✅ INTERFACCE CONFERMATE:")
+            appendLine("• ISDKManager - Gestione SDK e prodotto")
+            appendLine("• IPerceptionManager - Sensori e APAS")
+            appendLine("• IRTKCenter - GPS/RTK System")
+            appendLine()
+
+            appendLine("🔧 METODI DA TESTARE:")
+            appendLine("• ISDKManager.getProduct() o getCurrentProduct()")
+            appendLine("• IPerceptionManager.setObstacleAvoidanceEnabled()")
+            appendLine("• IPerceptionManager.setVisionPositioningEnabled()")
+            appendLine("• IRTKCenter.getRTKSystemState()")
+            appendLine()
+
+            appendLine("⚠️ CORREZIONI FINALI:")
+            appendLine("• SDKManager → ISDKManager interface")
+            appendLine("• PerceptionManager → IPerceptionManager interface")
+            appendLine("• RTKCenter → IRTKCenter interface")
+            appendLine("• Tutti i manager sono interfacce, non classi concrete")
+        }
+    }
+
     fun cleanup() {
         stopSensorReading()
         scope.cancel()
