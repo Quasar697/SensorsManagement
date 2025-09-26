@@ -12,27 +12,24 @@ import dji.v5.common.error.IDJIError
 import dji.v5.common.register.DJISDKInitEvent
 
 /**
- * Application class per DJI Mini 3 Pro - VERSIONE CORRETTA
- * SDK v5.11.0 con interfacce corrette e gestione eventi completa
+ * Application class per DJI Mini 3 BASE - VERSIONE SEMPLIFICATA
+ * SDK v5.11.0 ottimizzato per funzioni base
  *
- * NOTA: Usa Application invece di MultiDexApplication per semplicità
- * Se il progetto diventa molto grande, aggiungi MultiDex separatamente
- *
- * CONFIGURAZIONI SPECIFICHE MINI 3 PRO:
- * ✅ Supporto sensori Front/Back/Down
- * ✅ APAS 4.0 Obstacle Avoidance
- * ✅ Vision Positioning standard
- * ✅ GPS/RTK dual-system
- * ❌ Precision Landing (non supportato)
- * ❌ Sensori laterali (non disponibili)
+ * CONFIGURAZIONI SPECIFICHE MINI 3 BASE:
+ * ✅ Supporto sensori Downward
+ * ✅ GPS/GNSS dual-system
+ * ✅ Basic flight controls
+ * ❌ NO obstacle avoidance (front/back/lateral)
+ * ❌ NO APAS systems
+ * ❌ NO ActiveTrack
  */
 class DJIApplication : Application() {
 
     companion object {
-        private const val TAG = "DJIApp_Mini3Pro"
+        private const val TAG = "DJIApp_Mini3Base"
 
-        // Broadcast flags per comunicazione con Activities
-        const val FLAG_NOTIFY_PRODUCT_CONNECT_EVENT = "dji_mini3pro_connection"
+        // Broadcast flags semplificati
+        const val FLAG_NOTIFY_PRODUCT_CONNECT_EVENT = "dji_mini3_base_connection"
         const val FLAG_CONNECTION_STATE = "connection_state"
         const val FLAG_PRODUCT_TYPE = "product_type"
         const val FLAG_INIT_PROGRESS = "init_progress"
@@ -47,35 +44,30 @@ class DJIApplication : Application() {
 
     override fun onCreate() {
         super.onCreate()
-        Log.d(TAG, "🚁 DJI Mini 3 Pro Application Starting...")
-        Log.d(TAG, "📦 SDK Version: 5.11.0 (Stable for Mini 3 Pro)")
-        Log.d(TAG, "🔧 Using Interface-based Architecture")
+        Log.d(TAG, "🚁 DJI Mini 3 Base Application Starting...")
+        Log.d(TAG, "📦 SDK Version: 5.11.0 (Entry-Level Optimized)")
+        Log.d(TAG, "⚠️ Basic functions only - No obstacle avoidance")
 
         initializeSDK()
     }
 
     /**
-     * Inizializza DJI SDK v5 con interfacce corrette
+     * Inizializza DJI SDK v5 per Mini 3 Base
      */
     private fun initializeSDK() {
-        Log.i(TAG, "🔧 Inizializzazione DJI SDK v5.11.0 con interfacce...")
+        Log.i(TAG, "🔧 Inizializzazione DJI SDK v5.11.0 per Mini 3 Base...")
 
         try {
-            // Ottieni l'SDK Manager come interfaccia
             sdkManager = SDKManager.getInstance() as ISDKManager
             Log.d(TAG, "✅ ISDKManager ottenuto: ${sdkManager?.javaClass?.simpleName}")
 
-            // Inizializza con callback
             sdkManager?.init(this, object : SDKManagerCallback {
 
                 override fun onRegisterSuccess() {
                     isSDKRegistered = true
                     Log.i(TAG, "✅ DJI SDK Registration SUCCESS")
-                    Log.i(TAG, "🎯 Mini 3 Pro SDK ready for operations")
-                    Log.i(TAG, "🔌 Interface-based connection established")
-
-                    // Verifica compatibilità Mini 3 Pro
-                    checkMini3ProCompatibility()
+                    Log.i(TAG, "🎯 Mini 3 Base SDK ready for basic operations")
+                    Log.i(TAG, "⚠️ Limited to downward sensors + GPS only")
 
                     sendBroadcastEvent(true, "SDK_REGISTERED", 100, true)
                 }
@@ -86,12 +78,7 @@ class DJIApplication : Application() {
                     Log.e(TAG, "┌─ Error Details:")
                     Log.e(TAG, "├─ Code: ${error.errorCode()}")
                     Log.e(TAG, "├─ Description: ${error.description()}")
-                    Log.e(TAG, "└─ Possible Causes:")
-                    Log.e(TAG, "   • Invalid API Key in AndroidManifest.xml")
-                    Log.e(TAG, "   • Network connectivity issues")
-                    Log.e(TAG, "   • DJI servers unreachable")
-                    Log.e(TAG, "   • App not approved by DJI")
-                    Log.e(TAG, "   • Interface binding issues")
+                    Log.e(TAG, "└─ Check API Key in AndroidManifest.xml")
 
                     sendBroadcastEvent(false, "SDK_REGISTRATION_FAILED", 0, false)
                 }
@@ -99,8 +86,7 @@ class DJIApplication : Application() {
                 override fun onProductDisconnect(productId: Int) {
                     connectedProductType = null
                     Log.w(TAG, "🔌 Product DISCONNECTED")
-                    Log.w(TAG, "├─ Product ID: $productId")
-                    Log.w(TAG, "└─ Mini 3 Pro disconnected from app")
+                    Log.w(TAG, "└─ Mini 3 Base disconnected from app")
 
                     sendBroadcastEvent(false, "DISCONNECTED", initializationProgress, isSDKRegistered)
                 }
@@ -109,37 +95,36 @@ class DJIApplication : Application() {
                     Log.i(TAG, "🔗 Product CONNECTED")
                     Log.i(TAG, "├─ Product ID: $productId")
 
-                    // Test accesso al prodotto usando interfacce
                     val product = getProductFromSDK()
-
                     if (product != null) {
                         connectedProductType = extractProductInfo(product)
                         Log.i(TAG, "├─ Product Type: $connectedProductType")
 
                         when {
-                            connectedProductType?.contains("Mini 3") == true -> {
-                                Log.i(TAG, "🎯 DJI Mini 3 Pro SUCCESSFULLY CONNECTED!")
-                                Log.i(TAG, "├─ All sensor systems available")
-                                Log.i(TAG, "├─ APAS 4.0: ✅ Available")
-                                Log.i(TAG, "├─ Vision Positioning: ✅ Available")
-                                Log.i(TAG, "├─ Precision Landing: ❌ Not supported")
-                                Log.i(TAG, "└─ Side Sensors: ❌ Not available")
+                            connectedProductType?.contains("Mini 3") == true &&
+                                    !connectedProductType!!.contains("Pro") -> {
+                                Log.i(TAG, "🎯 DJI Mini 3 BASE SUCCESSFULLY CONNECTED!")
+                                Log.i(TAG, "├─ Entry-level model confirmed")
+                                Log.i(TAG, "├─ Downward sensors: ✅ Available")
+                                Log.i(TAG, "├─ GPS positioning: ✅ Available")
+                                Log.i(TAG, "├─ Obstacle avoidance: ❌ NOT available")
+                                Log.i(TAG, "└─ Manual flight control required")
 
-                                validateMini3ProSystems()
+                                validateMini3BaseFeatures()
                             }
 
-                            connectedProductType?.contains("Mini") == true -> {
-                                Log.w(TAG, "⚠️ Connected Mini drone: $connectedProductType")
-                                Log.w(TAG, "└─ Some features may not be available")
+                            connectedProductType?.contains("Pro") == true -> {
+                                Log.w(TAG, "⚠️ Mini 3 PRO detected - app optimized for BASE model")
+                                Log.w(TAG, "└─ Some Pro features may not be utilized")
                             }
 
                             else -> {
-                                Log.w(TAG, "⚠️ Non-Mini product connected: $connectedProductType")
-                                Log.w(TAG, "└─ App optimized for Mini 3 Pro")
+                                Log.w(TAG, "⚠️ Different product connected: $connectedProductType")
+                                Log.w(TAG, "└─ App optimized for Mini 3 Base")
                             }
                         }
                     } else {
-                        Log.w(TAG, "⚠️ Product connected but details unavailable via interface")
+                        Log.w(TAG, "⚠️ Product connected but details unavailable")
                         connectedProductType = "Connected_Unknown"
                     }
 
@@ -153,8 +138,7 @@ class DJIApplication : Application() {
 
                     Log.i(TAG, "🔄 Product CHANGED")
                     Log.i(TAG, "├─ From: $oldProduct")
-                    Log.i(TAG, "├─ To: $connectedProductType")
-                    Log.i(TAG, "└─ New Product ID: $productId")
+                    Log.i(TAG, "└─ To: $connectedProductType")
 
                     sendBroadcastEvent(true, connectedProductType ?: "UNKNOWN", initializationProgress, isSDKRegistered)
                 }
@@ -163,20 +147,16 @@ class DJIApplication : Application() {
                     initializationProgress = progress
                     Log.d(TAG, "⏳ SDK Init: ${event.name} - $progress%")
 
-                    // Gestione eventi senza riferimenti a constanti che potrebbero non esistere
                     when (event.name) {
                         "START_INITIALIZE" -> {
                             Log.i(TAG, "🚀 SDK Initialization Started")
                         }
                         "INITIALIZE_COMPLETE" -> {
                             Log.i(TAG, "✅ SDK Initialization Complete")
-                            Log.i(TAG, "🎯 Ready for Mini 3 Pro operations")
+                            Log.i(TAG, "🎯 Ready for Mini 3 Base basic operations")
                         }
                         "START_PRODUCT_CONNECTION" -> {
                             Log.i(TAG, "🔍 Starting Product Connection...")
-                        }
-                        else -> {
-                            Log.d(TAG, "📊 Init Event: ${event.name}")
                         }
                     }
 
@@ -186,28 +166,26 @@ class DJIApplication : Application() {
                 override fun onDatabaseDownloadProgress(current: Long, total: Long) {
                     val progress = if (total > 0) ((current * 100) / total).toInt() else 0
 
-                    if (progress % 10 == 0 || current >= total) { // Log ogni 10% o al completamento
-                        Log.d(TAG, "📥 Database Download: $progress% (${formatBytes(current)}/${formatBytes(total)})")
+                    if (progress % 20 == 0 || current >= total) {
+                        Log.d(TAG, "📥 Database Download: $progress%")
                     }
 
                     if (current >= total && total > 0) {
                         Log.i(TAG, "✅ Database Download Complete")
                         Log.i(TAG, "├─ Flight zones data: ✅ Ready")
-                        Log.i(TAG, "├─ Maps data: ✅ Ready")
-                        Log.i(TAG, "└─ Mini 3 Pro geo-restrictions: ✅ Active")
+                        Log.i(TAG, "└─ Mini 3 Base geo-restrictions: ✅ Active")
                     }
                 }
             })
 
         } catch (e: Exception) {
             Log.e(TAG, "❌ Critical error during SDK initialization: ${e.message}")
-            Log.e(TAG, "└─ Stack trace: ${e.stackTrace.contentToString()}")
             sendBroadcastEvent(false, "INIT_ERROR", 0, false)
         }
     }
 
     /**
-     * Ottiene il prodotto dall'SDK usando interfacce
+     * Ottiene il prodotto dall'SDK
      */
     private fun getProductFromSDK(): Any? {
         return try {
@@ -249,7 +227,6 @@ class DJIApplication : Application() {
             val productClass = product::class.java
             Log.d(TAG, "🎯 Analyzing product: ${productClass.simpleName}")
 
-            // Cerca metodi comuni per il prodotto
             val nameMethods = listOf(
                 "getProductType",
                 "productType",
@@ -272,7 +249,6 @@ class DJIApplication : Application() {
                 }
             }
 
-            // Se non trova il nome, usa la classe
             productClass.simpleName
 
         } catch (e: Exception) {
@@ -282,241 +258,85 @@ class DJIApplication : Application() {
     }
 
     /**
-     * Verifica compatibilità specifica Mini 3 Pro con interfacce
+     * Valida funzioni specifiche Mini 3 Base
      */
-    private fun checkMini3ProCompatibility() {
-        Log.d(TAG, "🔍 Checking Mini 3 Pro Compatibility via Interfaces...")
+    private fun validateMini3BaseFeatures() {
+        Log.d(TAG, "🔍 Validating Mini 3 Base Features...")
 
         try {
-            // Test PerceptionManager
-            val perceptionManager = dji.v5.manager.aircraft.perception.PerceptionManager.getInstance()
-            if (perceptionManager != null) {
-                Log.d(TAG, "├─ IPerceptionManager: ✅ Available")
-                Log.d(TAG, "│  └─ Type: ${perceptionManager::class.java.simpleName}")
-            }
+            // Test basic GPS/GNSS availability
+            Log.d(TAG, "├─ GPS/GNSS: ✅ Expected to be available")
 
-            // Test RTKCenter
-            val rtkCenter = dji.v5.manager.aircraft.rtk.RTKCenter.getInstance()
-            if (rtkCenter != null) {
-                Log.d(TAG, "├─ IRTKCenter: ✅ Available")
-                Log.d(TAG, "│  └─ Type: ${rtkCenter::class.java.simpleName}")
-            }
+            // Note: NO PerceptionManager testing - not available on base model
+            Log.d(TAG, "├─ Obstacle Avoidance: ❌ Not available on Base model")
 
-            Log.d(TAG, "└─ Basic interface compatibility: ✅ Confirmed")
+            // Basic downward sensors should be available
+            Log.d(TAG, "├─ Downward Sensors: ✅ Expected for landing")
+
+            Log.d(TAG, "└─ Mini 3 Base validation complete")
 
         } catch (e: Exception) {
-            Log.e(TAG, "❌ Compatibility check failed: ${e.message}")
+            Log.w(TAG, "⚠️ Feature validation failed: ${e.message}")
         }
     }
 
     /**
-     * Valida sistemi specifici Mini 3 Pro dopo connessione
-     */
-    private fun validateMini3ProSystems() {
-        try {
-            Log.d(TAG, "🔍 Validating Mini 3 Pro Systems via Interfaces...")
-
-            // Test PerceptionManager per sensori
-            val perceptionManager = dji.v5.manager.aircraft.perception.PerceptionManager.getInstance()
-            if (perceptionManager != null) {
-                Log.d(TAG, "├─ IPerceptionManager: ✅ Ready for sensor operations")
-
-                // Test metodi probabili
-                testPerceptionCapabilities(perceptionManager)
-            }
-
-            // Test RTKCenter per GPS
-            val rtkCenter = dji.v5.manager.aircraft.rtk.RTKCenter.getInstance()
-            if (rtkCenter != null) {
-                Log.d(TAG, "├─ IRTKCenter: ✅ Ready for GPS operations")
-
-                // Test metodi probabili
-                testRTKCapabilities(rtkCenter)
-            }
-
-            Log.d(TAG, "└─ Mini 3 Pro Systems: ✅ Interface validation complete")
-
-        } catch (e: Exception) {
-            Log.w(TAG, "⚠️ System validation partially failed: ${e.message}")
-            Log.w(TAG, "└─ Some features may not be available")
-        }
-    }
-
-    /**
-     * Test capabilities del PerceptionManager
-     */
-    private fun testPerceptionCapabilities(perceptionManager: Any) {
-        try {
-            val methods = perceptionManager::class.java.methods
-            val visionMethods = methods.filter { it.name.contains("vision", ignoreCase = true) }
-            val apasMethods = methods.filter { it.name.contains("obstacle", ignoreCase = true) || it.name.contains("apas", ignoreCase = true) }
-
-            Log.d(TAG, "│  ├─ Vision methods found: ${visionMethods.size}")
-            Log.d(TAG, "│  └─ APAS methods found: ${apasMethods.size}")
-
-        } catch (e: Exception) {
-            Log.w(TAG, "│  └─ Method enumeration failed: ${e.message}")
-        }
-    }
-
-    /**
-     * Test capabilities del RTKCenter
-     */
-    private fun testRTKCapabilities(rtkCenter: Any) {
-        try {
-            val methods = rtkCenter::class.java.methods
-            val gpsMethods = methods.filter {
-                it.name.contains("gps", ignoreCase = true) ||
-                        it.name.contains("satellite", ignoreCase = true) ||
-                        it.name.contains("rtk", ignoreCase = true)
-            }
-
-            Log.d(TAG, "│  └─ GPS/RTK methods found: ${gpsMethods.size}")
-
-        } catch (e: Exception) {
-            Log.w(TAG, "│  └─ RTK method enumeration failed: ${e.message}")
-        }
-    }
-
-    /**
-     * Invia broadcast eventi per comunicare con Activities
-     * Usa broadcast esplicito per evitare problemi con receiver non-exported
+     * Invia broadcast eventi
      */
     private fun sendBroadcastEvent(isConnected: Boolean, productType: String, progress: Int, sdkReady: Boolean) {
         val intent = Intent().apply {
-            // Usa broadcast esplicito invece di action generica
             setClass(this@DJIApplication, com.example.msdksample.MainActivity::class.java)
             action = FLAG_NOTIFY_PRODUCT_CONNECT_EVENT
             putExtra(FLAG_CONNECTION_STATE, isConnected)
             putExtra(FLAG_PRODUCT_TYPE, productType)
             putExtra(FLAG_INIT_PROGRESS, progress)
             putExtra(FLAG_SDK_READY, sdkReady)
-
-            // Aggiungi flag per broadcast locale
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         }
 
-        // Invia broadcast sicuro
         try {
             sendBroadcast(intent)
-            Log.d(TAG, "📡 Broadcast sent: Connected=$isConnected, Product=$productType, Progress=$progress%, SDK_Ready=$sdkReady")
+            Log.d(TAG, "📡 Broadcast sent: Connected=$isConnected, Product=$productType, SDK_Ready=$sdkReady")
         } catch (e: Exception) {
             Log.w(TAG, "⚠️ Broadcast failed (non-critical): ${e.message}")
         }
     }
 
     /**
-     * Ottiene informazioni dettagliate prodotto connesso
+     * Verifica se Mini 3 Base è connesso
      */
-    fun getConnectedProductInfo(): String {
-        val product = getProductFromSDK()
-
-        return if (product != null) {
-            buildString {
-                val productName = extractProductInfo(product)
-                appendLine("🚁 Prodotto: $productName")
-
-                // Test accesso batteria
-                try {
-                    val battery = testBatteryAccess(product)
-                    if (battery != null) {
-                        appendLine("🔋 Batteria: Accessibile ✅")
-                    } else {
-                        appendLine("🔋 Batteria: Non accessibile ❌")
-                    }
-                } catch (e: Exception) {
-                    appendLine("🔋 Batteria: Errore - ${e.message}")
-                }
-
-                // Connection status
-                appendLine("🔗 Connessione: ATTIVA")
-                appendLine("📦 SDK: v5.11.0 (Interface-based)")
-                appendLine("🎯 Interfacce: ISDKManager, IPerceptionManager, IRTKCenter")
-
-                // Mini 3 Pro specific info
-                if (isMini3ProConnected()) {
-                    appendLine("🎯 Sensori: Front/Back/Down ✅")
-                    appendLine("🛡️ APAS 4.0: Supportato ✅")
-                    appendLine("❌ Precision Landing: Non supportato")
-                }
-            }
-        } else {
-            "❌ Nessun prodotto connesso"
-        }
+    fun isMini3BaseConnected(): Boolean {
+        return connectedProductType?.contains("Mini 3") == true &&
+                !connectedProductType!!.contains("Pro")
     }
 
     /**
-     * Test accesso batteria
-     */
-    private fun testBatteryAccess(product: Any): Any? {
-        val batteryMethods = listOf("getBattery", "battery", "getBatteryState")
-
-        for (methodName in batteryMethods) {
-            try {
-                val method = product::class.java.getMethod(methodName)
-                val result = method.invoke(product)
-                if (result != null) {
-                    return result
-                }
-            } catch (e: Exception) {
-                // Continua
-            }
-        }
-        return null
-    }
-
-    /**
-     * Verifica se prodotto connesso è Mini 3 Pro
-     */
-    fun isMini3ProConnected(): Boolean {
-        return connectedProductType?.contains("Mini 3") == true
-    }
-
-    /**
-     * Verifica se SDK è pronto per operazioni
+     * Verifica se SDK è pronto
      */
     fun isSDKReady(): Boolean {
         return isSDKRegistered && getProductFromSDK() != null
     }
 
     /**
-     * Ottiene stato dettagliato SDK
+     * Ottiene stato SDK semplificato
      */
     fun getSDKStatus(): String {
         return buildString {
-            appendLine("📦 DJI SDK Status:")
+            appendLine("📦 DJI SDK Status (Mini 3 Base):")
             appendLine("├─ Version: 5.11.0")
-            appendLine("├─ Architecture: Interface-based")
+            appendLine("├─ Model: Entry-Level Optimized")
             appendLine("├─ Registered: ${if (isSDKRegistered) "✅ Yes" else "❌ No"}")
             appendLine("├─ Product: ${connectedProductType ?: "None"}")
             appendLine("├─ Progress: $initializationProgress%")
-            appendLine("├─ ISDKManager: ${if (sdkManager != null) "✅ Active" else "❌ Null"}")
             appendLine("└─ Ready: ${if (isSDKReady()) "✅ Yes" else "❌ No"}")
         }
     }
 
-    /**
-     * Formatta bytes in formato human-readable
-     */
-    private fun formatBytes(bytes: Long): String {
-        val unit = 1024
-        if (bytes < unit) return "$bytes B"
-
-        val exp = (Math.log(bytes.toDouble()) / Math.log(unit.toDouble())).toInt()
-        val pre = "KMGTPE"[exp - 1]
-
-        return String.format("%.1f %sB", bytes / Math.pow(unit.toDouble(), exp.toDouble()), pre)
-    }
-
-    /**
-     * Cleanup delle risorse
-     */
     override fun onTerminate() {
         super.onTerminate()
-        Log.i(TAG, "🧹 DJI Application terminating...")
+        Log.i(TAG, "🧹 DJI Mini 3 Base Application terminating...")
 
         try {
-            // Cleanup SDK se necessario
             sdkManager = null
             Log.i(TAG, "✅ SDK cleanup completed")
         } catch (e: Exception) {
